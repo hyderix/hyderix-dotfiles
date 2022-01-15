@@ -1,0 +1,79 @@
+window:
+  dimensions:
+    columns: 130
+    lines: 35
+
+  padding:
+    x: 3
+    y: 2
+
+  decorations: full
+
+  dynamic_title: true
+
+scrolling:
+  history: 10000
+font:
+
+  normal:
+    family: JetBrains Mono
+    style: Regular
+
+  bold:
+    family: JetBrains Mono
+    style: Bold
+
+  italic:
+    family: JetBrains Mono
+    style: Italic
+
+  bold_italic:
+    family: JetBrains Mono
+    style: Bold Italic
+
+  size: 16.0
+
+  offset:
+    x: 0
+    y: 0
+
+colors:
+  primary:
+    background: '0x122637'
+    foreground: '0xffffff'
+
+  cursor:
+    text: '0x122637'
+    cursor: '0xf0cb09'
+
+  normal:
+    black:   '0x000000'
+    red:     '0xff0000'
+    green:   '0x37dd21'
+    yellow:  '0xfee409'
+    blue:    '0x1460d2'
+    magenta: '0xff005d'
+    cyan:    '0x00bbbb'
+    white:   '0xbbbbbb'
+
+  bright:
+    black:   '0x545454'
+    red:     '0xf40d17'
+    green:   '0x3bcf1d'
+    yellow:  '0xecc809'
+    blue:    '0x5555ff'
+    magenta: '0xff55ff'
+    cyan:    '0x6ae3f9'
+    white:   '0xffffff'
+
+
+background_opacity: 1.0
+
+cursor:
+  style:
+    shape: Block
+    blinking: On
+
+  unfocused_hollow: false
+
+live_config_reload: false
